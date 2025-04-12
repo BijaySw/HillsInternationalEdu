@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17e91d3b.css",
+    "main.js": "/static/js/main.de8795e4.js",
+    "static/js/453.24379259.chunk.js": "/static/js/453.24379259.chunk.js",
+    "static/media/whyUsImg.png": "/static/media/whyUsImg.e5f5bb67d61102fb31f0.png",
+    "static/media/ContactUsDeskMp4.mp4": "/static/media/ContactUsDeskMp4.f4d8d7d1077d121e31be.mp4",
+    "static/media/PredepartureBriefings.PNG": "/static/media/PredepartureBriefings.47424ab9bcfbdf302806.PNG",
+    "static/media/PostarrivalSupport.PNG": "/static/media/PostarrivalSupport.18e85d20b08cf5460903.PNG",
+    "static/media/HomeImg01.jpeg": "/static/media/HomeImg01.e23d0c62a8365e7657d5.jpeg",
+    "static/media/AppnAdmiGuid.png": "/static/media/AppnAdmiGuid.50f4e4400367923aed52.png",
+    "static/media/TravelNAccommodation.png": "/static/media/TravelNAccommodation.ea6bddb62d2e242fa25b.png",
+    "static/media/CollegeUnivSel.png": "/static/media/CollegeUnivSel.6ff789cb3307758ab550.png",
+    "static/media/homepage02.png": "/static/media/homepage02.85df809693e11c863f7f.png",
+    "static/media/Documentation.png": "/static/media/Documentation.fe6d10a0f6bb2bdfc62b.png",
+    "static/media/EducationCounseling.png": "/static/media/EducationCounseling.71ccc4ae85b00bb52eab.png",
+    "static/media/EnrollmentDeskImg.mp4": "/static/media/EnrollmentDeskImg.ac71e5631c59f6134bca.mp4",
+    "static/media/VisaProcessGuide.png": "/static/media/VisaProcessGuide.25ce1390adc6a29e1a5d.png",
+    "static/media/homepage03.png": "/static/media/homepage03.16294b23c1a1277ab91e.png",
+    "static/media/homepage01.png": "/static/media/homepage01.a655d866e1903b372f39.png",
+    "static/media/OurServices.mp4": "/static/media/OurServices.8110ed77046c305c4d7c.mp4",
+    "static/media/homepageMb02.png": "/static/media/homepageMb02.98bc11f1fa9b90d0c801.png",
+    "static/media/AboutUsDeskImg.png": "/static/media/AboutUsDeskImg.ed00e58bb2984b4cc3ee.png",
+    "static/media/JapaneseLangClass.png": "/static/media/JapaneseLangClass.1fa6c5b1c35eea623837.png",
+    "static/media/homepageMb01.png": "/static/media/homepageMb01.4d814a844bb9aa274fc0.png",
+    "static/media/OurServices.jpeg": "/static/media/OurServices.56b4c0f2facb801d18e4.jpeg",
+    "static/media/homepageMb03.png": "/static/media/homepageMb03.8e3f65fff395e948c89e.png",
+    "static/media/GreyLogo.jpeg": "/static/media/GreyLogo.8b0b1e4836b19cc3f088.jpeg",
+    "static/media/OurServicesMobile.jpeg": "/static/media/OurServicesMobile.4fc1fd023dabf98fa959.jpeg",
+    "index.html": "/index.html",
+    "main.17e91d3b.css.map": "/static/css/main.17e91d3b.css.map",
+    "main.de8795e4.js.map": "/static/js/main.de8795e4.js.map",
+    "453.24379259.chunk.js.map": "/static/js/453.24379259.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17e91d3b.css",
+    "static/js/main.de8795e4.js"
+  ]
+}
