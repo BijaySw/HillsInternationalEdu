@@ -1,0 +1,192 @@
+.responsive-map{
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.responsive-map iframe{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.contact-us-section a {
+    word-wrap: break-word;  /* Ensures long email addresses wrap within the container */
+    overflow-wrap: break-word; /* Prevents overflow of long email addresses */
+    text-decoration: none; /* Optional: To remove the underline on links */
+  }
+.contact-us-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .contact-us-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-us-header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .contact-us-details {
+    display: grid;
+
+  }
+  
+  .contact-us-section {
+    background-color: #c3d5ed;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .contact-us-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us-section p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .contact-us-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-us-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Appointment Form Card Styles */
+  .appointment-form-card {
+    background: #cbdfef;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    display: flex;           /* Set display to flex */
+    flex-direction: column;  /* Stack the form elements vertically */
+    align-items: center;     /* Center align children horizontally */
+    justify-content: center; /* Center align children vertically (optional) */
+    max-width: 700px;        /* Optional: Limiting the card width */
+    margin: 20px auto 0;  
+  }
+  
+  .appointment-form-header {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  .input-group input {
+    width: 48%; /* Adjusted width for desktop layout */
+  }
+  
+  .input-group input {
+    width: 48%;
+  }
+  
+  .form-control {
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .submit-btn {
+    background-color: #f39c12;
+    color: white;
+    font-size: 1.1em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Animation for Form */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-us-details {
+      grid-template-columns: 1fr;
+    }
+  
+    .input-group {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .input-group input {
+      width: 100%;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-us-header h1 {
+      font-size: 2em;
+    }
+  
+    .appointment-form-header {
+      font-size: 1.5em;
+    }
+  
+    .submit-btn {
+      width: 100%;
+    }
+
+    .form-width input{
+        width: 100% !important;
+    } 
+
+    .form-container input {
+        font-size: 1em; /* Adjust font size for small screens */
+      }
+  }

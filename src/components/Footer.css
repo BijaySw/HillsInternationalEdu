@@ -1,0 +1,106 @@
+.footer {
+  background: linear-gradient(135deg, #20263e, #20263e);  /* Vibrant gradient background */
+  color: #fff;
+  padding: 40px 0;  /* Increase padding for more space */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-content {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;  /* Increase margin for separation */
+  flex-wrap: wrap;  /* Allows content to wrap for smaller screens */
+}
+
+.footer-section {
+  flex: 1 1 300px;  /* Make each section flexible, with a minimum width of 300px */
+  margin: 10px;
+}
+
+.footer-section h3, .footer-section h4 {
+  color: #fff;
+  font-size: 26px;  /* Larger font size */
+  margin-bottom: 20px;  /* More space between header and content */
+}
+
+.footer-section p {
+  font-size: 16px;  /* Increase the text size */
+  margin-bottom: 15px;  /* More space between paragraphs */
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;  /* Larger font for links */
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #f1c40f;  /* Change link color on hover */
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;  /* More space between social icons */
+}
+
+.social-links a {
+  font-size: 50px;  /* Increase icon size */
+  margin: 0 25px;  /* More space between icons */
+  transition: all 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+/* Facebook icon color */
+.social-links a.fa-facebook {
+  color: #3b5998;
+}
+
+/* WhatsApp icon color */
+.social-links a.fa-whatsapp {
+  color: #25d366;
+}
+
+/* Instagram icon color */
+.social-links a.fa-instagram {
+  color: #e4405f;
+}
+
+/* Hover effect: Slight grow and change of scale */
+.social-links a:hover {
+  transform: scale(1.2);  /* Slight zoom effect on hover */
+}
+
+/* Full-width background for copyright section */
+.footer-bottom {
+  width: 100%;  /* Make sure it spans the entire width */
+  background-color: #34495e;  /* Darker background for the copyright section */
+  color: #fff;  /* Set copyright text color to white */
+  text-align: center;
+  font-size: 16px;  /* Larger font size for the footer bottom */
+  padding: 20px 0;  /* Padding for better separation */
+  margin-top: 0;  /* Remove extra margin above the copyright section */
+  position: relative;  /* Ensure no extra vibrant section after copyright */
+}
+
+/* Make sure no extra content appears below */
+.footer-bottom p {
+  margin: 0;  /* Remove any extra margins around the copyright text */
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+  color: #f1c40f;  /* Change link color on hover */
+}
