@@ -15,7 +15,7 @@ function App() {
       <NavigationBar /> {/* Navigation bar with NavLink */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="/About Us" element={<AboutUs />} />
         <Route path="/Our Service" element={<OurServices/>} />
         <Route path="/Admission Process" element={<EnrollmentPage/>}/>
         <Route path="/Required Documents" element={<EnrollmentPage/>}/>

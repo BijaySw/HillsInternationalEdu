@@ -35,7 +35,7 @@ const EnrollmentPage = () => {
   };
 
   const admissionProcessContent = [
-    "Students must first complete the N5 level of Japanese language in Nepal and pass the NAT exam before applying for further studies in Japan.",
+    "Students must study or complete 160 hrs of Japanese language training or complete the N5 level of Japanese language in Nepal and pass the NAT exam before applying for further studies in Japan.",
     "After fulfilling this requirement, they can enroll in a one- to two-year Japanese language course in Japan, based on their proficiency level.",
     "This structured pathway ensures students acquire the necessary language skills before progressing to higher education or employment."
   ];
@@ -44,13 +44,13 @@ const EnrollmentPage = () => {
     "Copy of a valid passport.",
     "Academic transcripts and certificates from all educational levels.",
     "Proof of completion of N5 level Japanese language training and NAT exam results or Certificate for minimum 6 months (160 hours) of Japanese Language training.",
-    "Bank statement showing financial stability with a minimum six-month transaction history.",
+    "Bank statement showing financial stability with a minimum of six-month to one year transaction history.",
     "Income Certificates, Tax clearance and financial proof of the sponsor.",
     "Sponsor relationship certificate (e.g., proof of relation to parent/guardian supporting the student).",
     "Police clearance certificate proving no criminal record.",
     "Employment verification letter (if applicable).",
     "Medical fitness certificate from a registered doctor.",
-    "18 passport-size photographs of Candidate."
+    "18 passport-size photographs of Candidate and 8 passport-size photographs of parent."
   ];
 
   // 🔥 Scroll to section if triggered via NavigationBar

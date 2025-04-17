@@ -26,7 +26,7 @@ h1 {
 
 /* Enrollment Section Styles (Full width background) */
 .enrollment-section {
-  background-color: #FFF2C2; /* Light blue background for enrollment section */
+  background-color: #c3d5ed; /* Light blue background for enrollment section */
   padding: 40px 20px; /* Add padding to the section */
   width: 100%; /* Full width of the page */
   margin-bottom: 40px; /* Add margin-bottom to create space between sections */
@@ -43,7 +43,7 @@ h1 {
 
 /* Document Section Styles (Full width background) */
 .document-section {
-  background-color: #A6F1E0; /* Light teal background for document section */
+  background-color: #cbdfef; /* Light teal background for document section */
   padding: 40px 20px; /* Add padding to the section */
   width: 100%; /* Full width of the page */
 }

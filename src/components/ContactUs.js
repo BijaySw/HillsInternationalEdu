@@ -35,74 +35,74 @@ import emailjs from '@emailjs/browser';
 // });
 
 const ContactUs = () => {
-  const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
 
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [mobileNumber, setMobileNumber] = useState('');
-  const [message, setMessage] = useState('');
-  const [appointmentmessage, setAppointmentMessage] = useState('');
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [mobileNumber, setMobileNumber] = useState('');
+    const [message, setMessage] = useState('');
+    const [appointmentmessage, setAppointmentMessage] = useState('');
 
-  const form = useRef();
+    const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs
-      .sendForm('service_8pma0wa', 'template_j20s862', form.current, {
-        publicKey: 'RWDUQBry9AhE0JEzx',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-      setAppointmentMessage('The appointment is confirmed! You will get a call back soon!');
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Prepare the form data to be sent
-    const formData = {
-      firstName,
-      lastName,
-      email,
-      mobileNumber,
-      message,
+        emailjs
+            .sendForm('service_8pma0wa', 'template_j20s862', form.current, {
+                publicKey: 'RWDUQBry9AhE0JEzx',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+        setAppointmentMessage('The appointment is confirmed! You will get a call back soon!');
     };
 
-    // For demonstration, just log the data
-    console.log('Form Data: ', formData);
-    setAppointmentMessage(
-      'The appointment is confirmed! You will get a call back soon!'
-    );
-  };
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-  const checkDeviceType = () => {
-    if (window.innerWidth <= 768) {
-      setIsMobile(true); // Mobile
-    } else {
-      setIsMobile(false); // Desktop
-    }
-  };
+        // Prepare the form data to be sent
+        const formData = {
+            firstName,
+            lastName,
+            email,
+            mobileNumber,
+            message,
+        };
 
-  const isSubmitDisabled = !firstName || !mobileNumber;
-
-  useEffect(() => {
-    checkDeviceType(); // Check initial screen size
-    window.addEventListener('resize', checkDeviceType); // Add resize event listener
-
-    return () => {
-      window.removeEventListener('resize', checkDeviceType); // Clean up event listener
+        // For demonstration, just log the data
+        console.log('Form Data: ', formData);
+        setAppointmentMessage(
+            'The appointment is confirmed! You will get a call back soon!'
+        );
     };
-  }, []);
 
-  return (
+    const checkDeviceType = () => {
+        if (window.innerWidth <= 768) {
+            setIsMobile(true); // Mobile
+        } else {
+            setIsMobile(false); // Desktop
+        }
+    };
+
+    const isSubmitDisabled = !firstName || !mobileNumber;
+
+    useEffect(() => {
+        checkDeviceType(); // Check initial screen size
+        window.addEventListener('resize', checkDeviceType); // Add resize event listener
+
+        return () => {
+            window.removeEventListener('resize', checkDeviceType); // Clean up event listener
+        };
+    }, []);
+
+    return (
         <div>
             <video
                 className="video-header"
@@ -121,22 +121,22 @@ const ContactUs = () => {
                         <div className="contact-us-details">
                             {/* Visit Us Section */}
                             <div className="contact-us-section">
-                                <h2>Visit Us</h2>
+                                <h2><i className="fas fa-map-marker-alt" style={{ marginRight: '10px' }}></i>Visit Us</h2>
                                 <p>Edvisors St, Dillibazar-30, Kathmandu, Nepal</p>
                             </div>
 
                             {/* Call Us Section */}
                             <div className="contact-us-section">
-                                <h2>Call</h2>
+                                <h2><i className="fas fa-phone-alt" style={{ marginRight: '10px' }}></i>Call</h2>
                                 <p>
-                                    <a href="tel:+014547298">+014547298</a><br></br>
+                                    <a href="tel:+014547298">+014547298</a><br />
                                     <a href="tel:+97797091212928">+9779709121292</a>
                                 </p>
                             </div>
 
                             {/* Email Us Section */}
                             <div className="contact-us-section">
-                                <h2>Email</h2>
+                                <h2><i className="fas fa-envelope" style={{ marginRight: '10px' }}></i>Email</h2>
                                 <p>
                                     <a href="mailto:hillsinternationaleducation@gmail.com">
                                         hillsinternationaleducation@gmail.com
@@ -146,9 +146,9 @@ const ContactUs = () => {
 
                             {/* Clinic Hours Section */}
                             <div className="contact-us-section">
-                                <h2>Consultation Hours</h2>
+                                <h2><i className="fas fa-clock" style={{ marginRight: '10px' }}></i>Consultation Hours</h2>
                                 <p>Sun - Fri: 8:00 AM - 5:00 PM</p>
-                                <p>Sun: off day</p>
+                                <p>Saturday: Close</p>
                             </div>
                         </div>
                     </Grid>
@@ -219,7 +219,7 @@ const ContactUs = () => {
                                 </button>
                             </form>
                             {appointmentmessage && (
-                                <p style={{ color: 'green', content:'centre' }}>{appointmentmessage}</p>
+                                <p style={{ color: 'green', content: 'centre' }}>{appointmentmessage}</p>
                             )}
                         </div>
                     </Grid>
