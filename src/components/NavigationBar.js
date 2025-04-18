@@ -13,7 +13,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { styled } from "@mui/material";
 import logo from "./Pictures/GreyLogo.jpeg";
 
-const pages = ['Home', 'About Us', 'Our Service', 'Contact Us'];
+const pages = ['Home', 'About Us', 'Our Services', 'Contact Us'];
 const enrollmentPages = [
   { label: 'Admission Process', scrollTo: 'admission-sec' },
   { label: 'Required Documents', scrollTo: 'document-sec' }

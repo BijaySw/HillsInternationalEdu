@@ -16,10 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About Us" element={<AboutUs />} />
-        <Route path="/Our Service" element={<OurServices/>} />
+        <Route path="/Our Services" element={<OurServices/>} />
         <Route path="/Admission Process" element={<EnrollmentPage/>}/>
         <Route path="/Required Documents" element={<EnrollmentPage/>}/>
-        <Route path='/Contact Us' element={<ContactUs></ContactUs>}/>
+        <Route path="/Contact Us" element={<ContactUs/>}/>
       </Routes>
       <Footer/>
     </Router>

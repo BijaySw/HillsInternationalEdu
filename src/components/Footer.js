@@ -16,8 +16,8 @@ const Footer = () => {
             <div className="contact-item">
               <FaPhone className="icon" />
               <div>
-                <p>+014547298</p>
-                <p>+9779709121292</p>
+                <p style={{color: '#fff'}}>+014547298</p>
+                <p style={{color: '#fff'}}>+9779709121292</p>
               </div>
             </div>
             <div className="contact-item">
