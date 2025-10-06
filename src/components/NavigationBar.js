@@ -30,7 +30,7 @@ const TopBar = () => {
     <Box sx={{ backgroundColor: '#FFA725', padding: '10px' }}>
       <Typography variant="body1" align="center">
         <a href="tel:01-4547298" style={{ textDecoration: "none" }}> 01-4547298 </a>
-        <a style={{ color: "#000000" }}>/ Edvisors St, Dillibazar-30, Kathmandu, Nepal</a>
+        <a style={{ color: "#000000" }}>/ Dillibazar-30, Kathmandu, Nepal</a>
       </Typography>
     </Box>
   );

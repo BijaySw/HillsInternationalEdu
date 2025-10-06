@@ -122,7 +122,7 @@ const ContactUs = () => {
                             {/* Visit Us Section */}
                             <div className="contact-us-section">
                                 <h2><i className="fas fa-map-marker-alt" style={{ marginRight: '10px' }}></i>Visit Us</h2>
-                                <p>Edvisors St, Dillibazar-30, Kathmandu, Nepal</p>
+                                <p>Dillibazar-30, Kathmandu, Nepal</p>
                             </div>
 
                             {/* Call Us Section */}

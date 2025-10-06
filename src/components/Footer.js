@@ -43,7 +43,7 @@ const Footer = () => {
             <h4>Hills International Education Pvt. Ltd.</h4>
             <div className="contact-item">
               <FaMapMarkerAlt className="icon" />
-              <p>Edvisors St, Dillibazar-30, Kathmandu, Nepal</p>
+              <p> Dillibazar-30, Kathmandu, Nepal</p>
             </div>
           </div>
 
